@@ -1,0 +1,13 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.kuang.frank.piebridge">
+
+    <application
+        android:label="@string/app_name"
+        android:supportsRtl="true">
+        <service
+            android:name="cn.kuang.frank.piebridge.PieBridgeService"
+            android:exported="true"
+            android:process=":PieBridge" />
+    </application>
+
+</manifest>

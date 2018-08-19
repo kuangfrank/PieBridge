@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PieBridgeDemo</string>
+    <string name="book_add">添加书籍</string>
+    <string name="book_del">删除书籍</string>
+    <string name="book_query">查询书籍</string>
+    <string name="book_clear">清理书籍</string>
+</resources>
