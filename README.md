@@ -12,7 +12,7 @@ Andromeda 比较适用于 App 多进程架构整体解决方案；而 Bifrost �
 PieBridge 框架基于Android原生提供的 Bundle 进行通讯。Bundle 实现了 Parcelable 接口，
 内部又维护了一个Map<String,Object>，所以既能实现高效的通讯，又能与各种复杂类型之间进行转换。
 
-PieBridge的sourc&demo请点击[https://github.com/kuangfrank/PieBridge](https://github.com/kuangfrank/PieBridge)
+PieBridge的sourc&demo请点击[PieBridge GitHub](https://github.com/kuangfrank/PieBridge)
 PieBridge 框架，lib 代码仅包含4个Java文件，不过300行代码，易学易用。
 
 
@@ -101,5 +101,7 @@ interface IPieBridgeAidl {
 ##联系方式及相关链接
 
 本人e-mail： kuangrenjin@qq.com
+
+[PieBridge GitHub](https://github.com/kuangfrank/PieBridge)
 [Andromeda GitHub](https://github.com/iqiyi/Andromeda)
 [Bifrost GitHub](https://github.com/LiushuiXiaoxia/Bifrost)
