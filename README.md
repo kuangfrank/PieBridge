@@ -22,14 +22,11 @@ Android的跨进程调用使用AIDL方式，通常要写很多代码，操作繁
 若使用PieBridge 框架库，可降低使用难度。只需像本地调用一样，先定义一个接口和实现类。
 
 ```java
-public interface INumberApi {
-  public interface IBookApi {
+public interface IBookApi {
     Bundle insertBookListMethod(Bundle param);
     Bundle deleteBookListMethod(Bundle param);
     ...
   }
-...
-}
 ```
 
 ```java
