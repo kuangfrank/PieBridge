@@ -1,6 +1,7 @@
 ## PieBridge
-A efficient, light, and easy-to-use framework for Android Inter-Process Communication (IPC).
-一套高效、小巧、易用的基于 Bundle 的 Android 进程间通信IPC框架。[https://github.com/kuangfrank/PieBridge](https://github.com/kuangfrank/PieBridge)
+An efficient, light, and easy-to-use framework for Android Inter-Process Communication (IPC).
+一套高效、小巧、易用的基于 Bundle 的 Android 进程间通信IPC框架。
+[https://github.com/kuangfrank/PieBridge](https://github.com/kuangfrank/PieBridge)
 
 这几天学习了爱奇艺的跨进程通信框架——[Andromeda](https://github.com/iqiyi/Andromeda)，
 又研究了基于 JSON PRC 协议的 Android 跨进程调用解决方案[Bifrost](https://github.com/LiushuiXiaoxia/Bifrost)，觉得很受启发。
@@ -9,7 +10,7 @@ Andromeda 比较适用于 App 多进程架构整体解决方案；而 Bifrost �
 如果有一个框架能借用上述两种框架的思路，简化集成过程，并且提升跨进程调用效率，提高对复杂类型的支持度，岂不妙哉。
 这就是开发 PieBridge 框架的出发点。恰逢七夕节，PieBridge(鹊桥) 这个名字应景而生，寓意 Android 进程间的通讯畅通无阻。
 
-PieBridge 框架基于Android原生提供的 Bundle 进行通讯。Bundle 实现了 Parcelable 接口，内部维护了 Map<String,Object> 数据结构，
+PieBridge 框架基于Android原生提供的 Bundle 进行通讯。Bundle 实现了 Parcelable 接口，内部维护了 Map <String,Object> 数据结构，
 所以既能实现高效的通讯，又能与各种复杂类型之间进行转换。
 
 PieBridge 的 Source & Demo 请点击 [PieBridge GitHub](https://github.com/kuangfrank/PieBridge)
@@ -104,4 +105,3 @@ interface IPieBridgeAidl {
 [Andromeda GitHub](https://github.com/iqiyi/Andromeda)
 
 [Bifrost GitHub](https://github.com/LiushuiXiaoxia/Bifrost)
-
